@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA: Page Name</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__bar">
+                <a href="/">
+                    <img class="header__logo" src="img/logo.svg" alt="logo image">
+                </a>
+
+                <nav class="navigation">
+                    <a class="navigation__link" href="index.html">Home</a>
+                    <a class="navigation__link" href="about.html">About Us</a>
+                    <a class="navigation__link" href="blog.html">Blog</a>
+                    <a class="navigation__link" href="store.html">Store</a>
+                </nav>
+            </div><!--.header-bar-->
+        </div>
+    </header>
+
+
+    <main class="container">
+        <div class="product">
+            <img class="product__image" src="img/guitarra_04.jpg" alt="guitar image">
+
+            <div class="product__content">
+                <h3 class="product__name">Vai</h3>
+                <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem praesentium quam dolores eveniet</p>
+                <p class="product__price">$399</p>
+
+                <form class="product__form">
+                    <label class="product__label">Quantity:</label>
+                    <select class="product__quantity">
+                        <option value="">-- Select --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <input
+                        type="submit"
+                        class="product__add-to-cart"
+                        value="Add to Cart"
+                    >
+                </form>
+            </div>
+        </div><!--./product-->
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container footer__content">
+            <nav class="footer__nav">
+                <a class="footer__link" href="index.html">Home</a>
+                <a class="footer__link" href="about.html">About Us</a>
+                <a class="footer__link" href="blog.html">Blog</a>
+                <a class="footer__link" href="store.html">Store</a>
+            </nav>
+            <p class="footer__copyright">All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
